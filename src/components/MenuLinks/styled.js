@@ -2,10 +2,12 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 
 export const MenuLinksWrapper = styled.nav`
-  float: right;
   padding: 10px 15px;
+  width: 100%;
+  height: 40px;
 `
 export const MenuLinksList = styled.ul`
+  float: right;
   width: 110px;
 `
 export const MenuLinksItem = styled.li``

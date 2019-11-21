@@ -5,17 +5,18 @@ import * as S from './styled'
 
 const PostItem = ({
   slug,
-  background,
-  category,
+  position,
   date,
   title,
   place,
   company,
+  image,
 }) => (
   <S.Container>
     <S.PostItemLink to={slug}>
       <S.PostItemWrapper>
-        <S.PostItemTag background={background}>{category}</S.PostItemTag>
+        <S.PostItemImage src={image} alt=""/>
+        <S.PostItemTag>{position}</S.PostItemTag>
         <S.PostItemInfo>
           <S.PostItemDescription>{company}</S.PostItemDescription>
           <S.PostItemTitle>{title}</S.PostItemTitle>
@@ -31,12 +32,11 @@ const PostItem = ({
 
 PostItem.propTypes = {
   slug: PropTypes.string.isRequired,
-  background: PropTypes.string,
-  category: PropTypes.string.isRequired,
+  position: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
   title: PropTypes.string.isRequired,
   place: PropTypes.string,
-  company: PropTypes.string.isRequired,
+  company: PropTypes.string,
 }
 
 export default PostItem

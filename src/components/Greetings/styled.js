@@ -5,8 +5,8 @@ export const Container = styled.section`
   width: 405px;
   text-align: center;
   align-self: center;
-  top: 50%;
-  margin-top: -150px;
+  /* top: 50%; */
+  /* margin-top: -150px; */
   position: relative;
 `
 

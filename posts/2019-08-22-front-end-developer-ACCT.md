@@ -3,9 +3,8 @@ title: 'Front-end Developer'
 place: 'Atibaia - SP'
 company: 'ACCT'
 date: '2019-08-22 08:51:23'
-thumbnail: /assets/img/mussum-ipsum.jpg
-category: jekyll
-background: '#B31917'
+image: /assets/img/mussum-ipsum.jpg
+position: Front-End
 ---
 
 ## Descrição da vaga

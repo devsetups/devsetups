@@ -3,8 +3,7 @@ date: 2018-02-13 05:54:23
 title: Front-End Developer
 place: São José dos Campos ou Remoto
 company: RM07
-category: jekyll
-background: "#b31917"
+position: Front-End
 image: "/assets/img/desert.jpg"
 ---
 

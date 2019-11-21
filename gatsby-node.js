@@ -34,8 +34,7 @@ exports.createPages = ({ graphql, actions }) => {
               slug
             }
             frontmatter {
-              background
-              category
+              position
               date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
               company
               place

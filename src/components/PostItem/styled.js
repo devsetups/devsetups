@@ -7,6 +7,9 @@ export const Container = styled.div`
   &:nth-of-type(1) {
     background-color: #000;
     height: 400px;
+    img {
+      width: 400px;
+    }
   }
 `
 export const PostItemLink = styled(Link)`
@@ -17,7 +20,9 @@ export const PostItemLink = styled(Link)`
     color: #ef652a;
     /* text-decoration: underline; */
   }
-  
+  `
+export const PostItemImage = styled.img`
+  width: 100px;
 `
 export const PostItemWrapper = styled.section`
   align-items: center;

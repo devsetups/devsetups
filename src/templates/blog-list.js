@@ -23,15 +23,15 @@ const BlogList = props => {
       {postList.map(
         ({
           node: {
-            frontmatter: { background, category, date, company, place, title },
+            frontmatter: { position, date, company, place, title, image },
             timeToRead,
             fields: { slug },
           },
         }) => (
           <PostItem
+            image={image}
             slug={slug}
-            background={background}
-            category={category}
+            position={position}
             date={date}
             timeToRead={timeToRead}
             title={title}
@@ -65,12 +65,12 @@ export const query = graphql`
             slug
           }
           frontmatter {
-            background
-            category
+            position
             date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
             place
             company
             title
+            image
           }
           timeToRead
         }
