@@ -4,9 +4,12 @@ import { Link } from 'gatsby'
 export const Container = styled.div`
   /* width: 900px; */
   /* margin: 0 auto; */
+  /* display: grid;
+  grid-template-columns: 1fr 1fr; */
   &:nth-of-type(1) {
     background-color: #000;
     height: 400px;
+    /* display: block; */
     img {
       width: 400px;
     }
@@ -22,19 +25,20 @@ export const PostItemLink = styled(Link)`
   }
   `
 export const PostItemImage = styled.img`
-  width: 100px;
+  width: 100%;
+`
+export const PostItemImgWrapper = styled.div`
+  width: 200px;
 `
 export const PostItemWrapper = styled.section`
   align-items: center;
-  /* border-bottom: 1px solid #38444d; */
-  display: flex;
+  display: grid;
   padding: 1rem;
   width: 100%;
 `
 export const PostItemTag = styled.div`
   align-items: center;
   background: ${props => props.background ? props.background : "#1fa1f2"};
-  border-radius: 50%;
   color: #fff;
   display: flex;
   font-size: .5rem;
@@ -47,7 +51,6 @@ export const PostItemTag = styled.div`
 export const PostItemInfo = styled.div`
   display: flex;
   flex-direction: column;
-  margin-left: 1rem;
   width: 100%;
 `
 export const PostItemDateWrapper = styled.div`

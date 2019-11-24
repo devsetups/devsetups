@@ -5,7 +5,7 @@ import Layout from '../components/Layout'
 import Header from "../components/Header"
 import SEO from '../components/seo'
 import PostItem from '../components/PostItem'
-import Pagination from "../components/Pagination"
+import Pagination from '../components/Pagination'
 
 const BlogList = props => {
   const postList = props.data.allMarkdownRemark.edges
@@ -66,7 +66,7 @@ export const query = graphql`
           }
           frontmatter {
             position
-            date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
+            date(locale: "pt-br", formatString: "MM/YYYY")
             place
             company
             title
