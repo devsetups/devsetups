@@ -33,6 +33,16 @@ export const PostDate = styled.p`
   font-weight: 100;
 `
 
+export const PostItemList = styled.div`
+  /* background-color: red; */
+  /* display: grid; */
+  /* grid-template-columns: 350px 350px; */
+  /* align-items: center; */
+  margin: 0 auto;
+  width: 900px;
+  /* grid-gap: 20px; */
+`
+
 export const MainContent = styled.section`
   margin: auto;
   max-width: 70rem;

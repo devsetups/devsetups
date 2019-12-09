@@ -2,14 +2,16 @@ import styled from 'styled-components'
 import { Link } from 'gatsby'
 
 export const Container = styled.div`
-  /* width: 900px; */
-  /* margin: 0 auto; */
-  /* display: grid;
-  grid-template-columns: 1fr 1fr; */
+  width: 420px;
+  margin: 0 auto;
+  float: left;
+  /* display: grid; */
+  /* grid-template-columns: 1fr 1fr; */
   &:nth-of-type(1) {
+    width: 100%;
     background-color: #000;
     height: 400px;
-    /* display: block; */
+    display: block;
     img {
       width: 400px;
     }
@@ -17,7 +19,7 @@ export const Container = styled.div`
 `
 export const PostItemLink = styled(Link)`
   color: #8899a6;
-  display: flex;
+  /* display: flex; */
   text-decoration: none;
   &:hover {
     color: #ef652a;
@@ -32,9 +34,10 @@ export const PostItemImgWrapper = styled.div`
 `
 export const PostItemWrapper = styled.section`
   align-items: center;
-  display: grid;
   padding: 1rem;
   width: 100%;
+  grid-template-columns: 1fr 200px;
+  grid-gap: 10px;
 `
 export const PostItemTag = styled.div`
   align-items: center;

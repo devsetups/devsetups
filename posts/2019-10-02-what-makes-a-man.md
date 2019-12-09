@@ -1,7 +1,8 @@
 ---
-date: 2018-02-02 05:54:23
+date: 2019-10-02 05:54:23
 title: What makes a man?
 description: Spend his whole life in disguise?
+image: /assets/img/mountains.jpg
 position: misc
 ---
 

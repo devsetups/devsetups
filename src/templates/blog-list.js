@@ -7,6 +7,8 @@ import SEO from '../components/seo'
 import PostItem from '../components/PostItem'
 import Pagination from '../components/Pagination'
 
+import * as S from '../components/Post/styled'
+
 const BlogList = props => {
   const postList = props.data.allMarkdownRemark.edges
 
@@ -20,26 +22,28 @@ const BlogList = props => {
     <Layout>
       <SEO title="Home" />
       <Header />
-      {postList.map(
-        ({
-          node: {
-            frontmatter: { position, date, company, place, title, image },
-            timeToRead,
-            fields: { slug },
-          },
-        }) => (
-          <PostItem
-            image={image}
-            slug={slug}
-            position={position}
-            date={date}
-            timeToRead={timeToRead}
-            title={title}
-            place={place}
-            company={company}
-          />
-        )
-      )}
+      <S.PostItemList>
+        {postList.map(
+          ({
+            node: {
+              frontmatter: { position, date, company, place, title, image },
+              timeToRead,
+              fields: { slug },
+            },
+          }) => (
+            <PostItem
+              image={image}
+              slug={slug}
+              position={position}
+              date={date}
+              timeToRead={timeToRead}
+              title={title}
+              place={place}
+              company={company}
+            />
+          )
+        )}
+      </S.PostItemList>
       <Pagination
         isFirst={isFirst}
         isLast={isLast}
