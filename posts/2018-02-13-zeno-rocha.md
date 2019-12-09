@@ -1,10 +1,14 @@
 ---
 date: 2018-02-13 05:54:23
-title: Front-End Developer
-place: São José dos Campos ou Remoto
-company: RM07
-position: Front-End
+title: 'Zeno Rocha'
+description: Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+company: 'LifeRay'
+position: front-end
 image: "/assets/img/desert.jpg"
+twitter: https://twitter.com/dancasttro
+github: https://github.com/dancasttro
+site: http://dancasttro.github.io
+linkedin: https://www.linkedin.com/in/dancasttro/
 ---
 
 ## Descrição da vaga

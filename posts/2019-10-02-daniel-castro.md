@@ -1,9 +1,14 @@
 ---
 date: 2019-10-02 05:54:23
-title: What makes a man?
-description: Spend his whole life in disguise?
+title: Daniel Castro
+description: Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem.
+company: 'Concrete Solutions'
+position: front-end
 image: /assets/img/mountains.jpg
-position: misc
+twitter: https://twitter.com/dancasttro
+github: https://github.com/dancasttro
+site: http://dancasttro.github.io
+linkedin: https://www.linkedin.com/in/dancasttro/
 ---
 
 Proin suscipit luctus orci placerat fringilla. Donec hendrerit laoreet risus eget adipiscing. Suspendisse in urna ligula, a volutpat mauris. Sed enim mi, [bibendum](http://google.com) eu pulvinar vel, sodales vitae dui.
