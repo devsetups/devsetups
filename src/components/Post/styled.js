@@ -18,11 +18,6 @@ export const PostCompany = styled.h2`
   font-weight: 200;
 `
 
-export const PostPlace = styled.h2`
-  font-size: 2rem;
-  font-weight: 200;
-`
-
 export const PostLabel = styled.label`
   font-size: 1.5rem;
   font-weight: 200;
@@ -39,7 +34,7 @@ export const PostItemList = styled.div`
   /* grid-template-columns: 350px 350px; */
   /* align-items: center; */
   margin: 0 auto;
-  width: 900px;
+  width: 1040px;
   /* grid-gap: 20px; */
 `
 

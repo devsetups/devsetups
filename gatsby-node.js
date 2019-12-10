@@ -37,7 +37,6 @@ exports.createPages = ({ graphql, actions }) => {
               position
               date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
               company
-              place
               title
             }
             timeToRead

@@ -24,9 +24,6 @@ const BlogPost = ({ data, pageContext }) => {
         <S.PostCompany>
           <S.PostLabel>Empresa:</S.PostLabel> {post.frontmatter.company}
         </S.PostCompany>
-        <S.PostPlace>
-          <S.PostLabel>Local:</S.PostLabel> {post.frontmatter.place}
-          </S.PostPlace>
       </S.PostHeader>
       <S.MainContent>
         <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
@@ -46,7 +43,6 @@ export const query = graphql`
       frontmatter {
         title
         company
-        place
         date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
       }
       html

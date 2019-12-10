@@ -11,43 +11,18 @@ site: http://dancasttro.github.io
 linkedin: https://www.linkedin.com/in/dancasttro/
 ---
 
-## Descrição da vaga
-  Buscamos um desenvolvedor Front-End pra somar ao time da RM07, dá um bizu nos requisitos da vaga:
-
-## ATIVIDADES DIÁRIAS
- - Tomar café;
- - Trabalhar em Recorte de layouts (PSD to HTML);
- - Desenvolvimento de Aplicativos Hibridos
 
 
-## Requisitos
-### Obrigatórios:
- - Ter experiência em Desenvolvimento Web de, no mínimo, 3 anos;
- - Proficiência em CSS, Design Responsivo e Javascript;
+## Quem é você e o que faz?
 
-### Desejáveis:
- - Frameworks JS (Angular ou React);
- - Web Frameworks;
- - Desenvolvimento de Código com Melhores Práticas, Bem Estruturado, Testável e Escalável;
- - Pré-processadores de CSS (Sass ou Less);
+  ![Tux, the Linux mascot](/assets/img/cover.png)
 
-### Diferenciais:
- - Focado em Resultados;
- - Proativo;
- - Gosta de sempre Aprender Coisas Novas;
- - Ionic Framework
- - Uso de SDKs e APIs REST;
- - Web Frameworks (Rails, CakePHP);
+  Meu nome é Zeno Rocha, tenho 22 anos e sou de Curitiba, Paraná. Todo mundo tem uma história romântica de como começou na web, já eu nem lembro qual ano ou qual foi meu primeiro site exatamente.
 
-## Contratação
- PJ a combinar
+  Entrei na Universidade Federal do Estado do Rio de Janeiro em 2009 para cursar Sistemas de Informação. Nesse mesmo ano fui convidado para o meu primeiro estágio em uma agência de design chamada Caos! Design. O negócio principal deles era vender experiências únicas na web usando Flash. Por isso, ActionScript 3 foi uma escola importante para mim, mas desde aquela época o que realmente me interessava era Open Web.
 
-## Nossa empresa
-  A RM07 é uma empresa com 10 anos no mercado de desenvolvimento e atual na produção de tecnologia para empresas de diversos tamanhos, de Startups à Multnacionais conseguimos atuar e desenvolver sempre a melhor solução pensando em quem vai usar.
+  Com o passar do tempo senti a necessidade de descobrir um outro mundo. Trabalhar de chinelo todos os dias era incrível, mas precisava ter a experiência de trabalhar em uma empresa grande, com regras mais rígidas e projetos mais intensos. Foi aí que surgiu o convite para trabalhar na Petrobras. Lá aprendi a lidar com as burocracias que uma grande empresa impõe e esbarrei com a falta de motivação de muita gente. Definitivamente não era um lugar pra mim, mas só podia descobrir isso se fosse trabalhar lá.
 
-## Como se candidatar
-  Enviar curriculo e portfólio (github ou site) para contato@rm07.com.br com o assunto "FRONT CABULOSO OUTUBRO" com PRETENSÃO SALARIAL e Regime de contratação (CLT ou PJ)
+  Me demiti da Petrobras e entrei na Globo em 2011, no time de inovação do globoesporte.com. Dentro da redação tive que enfrentar os prazos malucos dos eventos esportivos e tive a oportunidade incrível de criar experiências digitais para centenas de milhares de pessoas.
 
-## Labels
- - PJ
- - Alocado ou Remoto
+  Quando descobri o impacto que poderia fazer no Brasil inteiro através desses projetos pensei: por que atingir só o Brasil? Por que não impactar o mundo todo? Então, mesmo com todo o status que trabalhar na Globo proporcionava, resolvi sair para trabalhar na Liferay, Inc. Hoje trabalho com pessoas do mundo todo e, volta e meia, conheço lugares que eu nunca imaginaria que iria visitar.

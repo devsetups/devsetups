@@ -2,44 +2,28 @@ import styled from 'styled-components'
 import { Link } from 'gatsby'
 
 export const Container = styled.div`
-  /* width: 420px; */
   margin: 0 auto;
-  /* float: left; */
-  /* position: relative; */
-  /* &:nth-of-type(1) {
-    width: 100%;
-    background-color: #000;
-    height: 400px;
-    display: block;
-    img {
-      width: 400px;
-    }
-  } */
 `
 export const PostItemLink = styled(Link)`
   color: #8899a6;
-  /* display: flex; */
   text-decoration: none;
   &:hover {
     background-color: #ccc;
-    /* color: #ef652a; */
   }
   `
 export const PostItemImage = styled.img`
   width: 100%;
-  height: 230px;
 `
 export const PostItemImgWrapper = styled.div`
-  /* float: left;
-  margin-right: 10px; */
-
+  height: 230px;
+  overflow: hidden;
 `
 export const PostItemWrapper = styled.section`
   align-items: center;
   padding: 1rem;
   width: 100%;
   display: grid;
-  grid-template-columns: 380px 1fr;
+  grid-template-columns: 1fr 430px;
   grid-gap: 10px;
 `
 export const PostItemTag = styled.span`

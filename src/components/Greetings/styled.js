@@ -2,11 +2,10 @@ import styled from 'styled-components'
 
 export const Container = styled.section`
   margin: 0 auto;
-  width: 405px;
   text-align: center;
   align-self: center;
-  /* top: 50%; */
-  /* margin-top: -150px; */
+  top: 50%;
+  margin-top: -130px;
   position: relative;
 `
 
@@ -24,7 +23,6 @@ export const Logo = styled.img`
 `
 export const Title = styled.h1`
   color: #fff;
-  font-size: 26px;
-  margin-top: 10px;
+  font-size: 7rem;
 `
 
