@@ -24,5 +24,7 @@ export const Logo = styled.img`
 export const Title = styled.h1`
   color: #fff;
   font-size: 7rem;
+  width: 540px;
+  margin: 0 auto;
 `
 

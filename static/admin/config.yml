@@ -1,8 +1,8 @@
 backend:
   name: github
-  repo: dancasttro/my-site
+  repo: devsetups/devsetups
   branch: master
-  site_domain: https://gatsby-course-will.netlify.com/
+  site_domain: https://devsetups.netlify.com/
 
 publish_mode: editorial_workflow
 media_folder: "static/assets/img"

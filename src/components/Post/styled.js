@@ -28,14 +28,9 @@ export const PostDate = styled.p`
   font-weight: 100;
 `
 
-export const PostItemList = styled.div`
-  /* background-color: red; */
-  /* display: grid; */
-  /* grid-template-columns: 350px 350px; */
-  /* align-items: center; */
+export const PostItemList = styled.section`
   margin: 0 auto;
-  width: 1040px;
-  /* grid-gap: 20px; */
+  width: 980px;
 `
 
 export const MainContent = styled.section`
