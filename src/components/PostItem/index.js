@@ -7,7 +7,7 @@ import { LinkedinSquare } from 'styled-icons/boxicons-logos/LinkedinSquare'
 
 import * as S from './styled'
 
-const PostItem = ({ 
+const PostItem = ({
   slug,
   position,
   date,
@@ -19,21 +19,21 @@ const PostItem = ({
   twitter,
   github,
   linkedin,
-  site }) => (
+  site,
+}) => (
   <S.Container>
-      <S.PostItemWrapper>
+    <S.PostItemWrapper>
+      <S.PostItemLink to={slug}>
         <S.PostItemImgWrapper>
           <S.PostItemImage src={image} alt="" />
         </S.PostItemImgWrapper>
         <S.PostInfoWrapper>
-          <S.PostItemLink to={slug}>
-            <S.PostItemInfo>
-              <S.PostItemTitle>{title}</S.PostItemTitle>
-              <S.PostItemTag>{position}</S.PostItemTag>
-              <S.PostItemDescription>{description}</S.PostItemDescription>
-            </S.PostItemInfo>
-          </S.PostItemLink>
-          <S.PostSocialMediaWrapper>
+          <S.PostItemTitle>{title}</S.PostItemTitle>
+          <S.PostItemInfo>
+            {/* <S.PostItemTag>{position}</S.PostItemTag> */}
+            {/* <S.PostItemDescription>{description}</S.PostItemDescription> */}
+          </S.PostItemInfo>
+          {/* <S.PostSocialMediaWrapper>
             <S.PostLinkSocialMediaWrapper>
               <S.PostLinkSocialMedia href={twitter} target="_blank">
                 <Twitter />
@@ -57,9 +57,10 @@ const PostItem = ({
                 <LinkedinSquare />
               </S.PostLinkSocialMedia>
             </S.PostLinkSocialMediaWrapper>
-          </S.PostSocialMediaWrapper>
+          </S.PostSocialMediaWrapper> */}
         </S.PostInfoWrapper>
-      </S.PostItemWrapper>
+      </S.PostItemLink>
+    </S.PostItemWrapper>
   </S.Container>
 )
 

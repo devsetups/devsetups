@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 export const PostHeader = styled.header`
-  color: #000;
+  color: #5a5050;
   margin: 0 auto;
   width: 60rem;
   padding: 3rem 0 0;
@@ -30,7 +30,10 @@ export const PostDate = styled.p`
 
 export const PostItemList = styled.section`
   margin: 0 auto;
-  width: 980px;
+  display: grid;
+  grid-template-columns: 300px 300px;
+  grid-gap: 20px;
+  margin-top: 20px;
 `
 
 export const MainContent = styled.section`
@@ -48,7 +51,7 @@ export const MainContent = styled.section`
   .tags,
   iframe,
   .button-post {
-    color: #000;
+    color: #5a5050;
     font-size: 1.25rem;
     font-weight: 300;
     line-height: 1.7;

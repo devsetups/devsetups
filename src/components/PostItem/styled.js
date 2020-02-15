@@ -3,14 +3,19 @@ import { Link } from 'gatsby'
 
 export const Container = styled.div`
   margin: 0 auto;
+  position: relative;
 `
 export const PostItemLink = styled(Link)`
   color: #8899a6;
   text-decoration: none;
   &:hover {
     background-color: #ccc;
+    PostInfoWrapper {
+      bottom: 0;
+      opacity: 1;
+    }
   }
-  `
+`
 export const PostItemImage = styled.img`
   width: 100%;
 `
@@ -20,11 +25,10 @@ export const PostItemImgWrapper = styled.div`
 `
 export const PostItemWrapper = styled.section`
   align-items: center;
-  padding: 1rem;
-  width: 100%;
-  display: grid;
+  width: 300px;
+  /* display: grid;
   grid-template-columns: 1fr 430px;
-  grid-gap: 10px;
+  grid-gap: 10px; */
 `
 export const PostItemTag = styled.span`
   align-items: center;
@@ -37,15 +41,25 @@ export const PostItemTag = styled.span`
   display: block;
 `
 export const PostItemInfo = styled.div`
-  float: left;
-  margin-bottom: 20px;
+  /* float: left; */
+  /* margin-bottom: 20px; */
 `
 export const PostInfoWrapper = styled.div`
   padding: 20px 10px;
-  height: 230px;
-  border-top: 1px solid #666;
-  border-bottom: 1px solid #666;
-  float: left;
+  /* height: 230px; */
+  /* border-top: 1px solid #666;
+  border-bottom: 1px solid #666; */
+  /* float: left; */
+  background-color: #3eaca8;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
+  /* opacity: 0; */
+
+  /* &:hover {
+    bottom: 0;
+    opacity: 1;
+  } */
 `
 export const PostItemDateWrapper = styled.div`
   display: flex;
@@ -63,7 +77,8 @@ export const PostItemPlace = styled.span`
 export const PostItemTitle = styled.h1`
   font-size: 1.2rem;
   font-weight: 700;
-  margin-bottom: 1rem;
+  color: #fff;
+  /* margin-bottom: 1rem; */
 `
 export const PostItemDescription = styled.p`
   font-size: .9rem;

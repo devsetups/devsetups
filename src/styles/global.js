@@ -15,6 +15,7 @@ export default createGlobalStyle`
   body {
     font: 16px 'Roboto', sans-serif;
     -webkit-font-smoothing: antialiased !important;
+    background-color: #fff;
   }
   ul {
     list-style: none;
