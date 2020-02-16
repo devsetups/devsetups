@@ -1,9 +1,9 @@
 module.exports = {
   siteMetadata: {
     title: `DevSetups`,
-    description: `Lorem ipsum`,
+    description: `A collection of interviews with reference people in the web world`,
     author: `Daniel Castro`,
-    siteUrl: `https://devsetups.netlify.com/`
+    siteUrl: `https://devsetups.netlify.com/`,
   },
   plugins: [
     `gatsby-plugin-styled-components`,

@@ -8,13 +8,13 @@ const Greetings = () => {
 
   const {
     site: {
-      siteMetadata: { title },
+      siteMetadata: { description },
     },
   } = useStaticQuery(graphql`
     query MySiteMetaData {
       site {
         siteMetadata {
-          title
+          description
         }
       }
     }
@@ -22,9 +22,7 @@ const Greetings = () => {
 
   return (
     <S.Container>
-      {/* <S.Logo src={Logo} /> */}
-      <S.Title>{title}</S.Title>
- 
+      <S.Title>{description}</S.Title>
     </S.Container>
   )
 }

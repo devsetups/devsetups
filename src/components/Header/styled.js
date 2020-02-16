@@ -1,8 +1,17 @@
 import styled from 'styled-components'
+import { Link } from "gatsby"
 
-// import bkg from '../../images/bkg.jpg'
-
-export const Container = styled.section`
-  background-color: #547a82;
-  height: 30rem;
+export const Container = styled.header`
+  width: 940px;
+  margin: 0 auto;
+  height: 80px;
+  padding: 20px 0;
+`
+export const Logo = styled.h1`
+  display: block;
+  float: left;
+  padding: 10px;
+`
+export const LinkLogo = styled(Link)`
+  color: #000;
 `

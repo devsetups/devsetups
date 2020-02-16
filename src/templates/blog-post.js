@@ -3,11 +3,12 @@ import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
+import Footer from '../components/Footer'
 import RecommendedPosts from "../components/RecommendedPosts"
 // import Comments from "../components/Comments"
 
 import * as S from '../components/Post/styled'
-import HeaderPosts from '../components/HeaderPosts'
+import Header from '../components/Header'
 
 const BlogPost = ({ data, pageContext }) => {
   const post = data.markdownRemark
@@ -17,7 +18,7 @@ const BlogPost = ({ data, pageContext }) => {
   return (
     <Layout>
       <SEO title={post.frontmatter.title} description={post.frontmatter.description} image={post.frontmatter.image} />
-      <HeaderPosts />
+      <Header />
       <S.PostHeader>
         <S.PostDate>{post.frontmatter.date}</S.PostDate>
         <S.PostTitle>{post.frontmatter.title}</S.PostTitle>
@@ -29,7 +30,7 @@ const BlogPost = ({ data, pageContext }) => {
         <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
       </S.MainContent>
       <RecommendedPosts next={next} previous={previous} />
-      {/* <Comments url={post.fields.slug} title={post.frontmatter.title} /> */}
+      <Footer />
     </Layout>
   )
 }

@@ -14,9 +14,9 @@ const Pagination = ({
 }) => (
   <S.PaginationWrapper>
     {!isFirst && <Link to={prevPage}>← página anterior</Link>}
-    <p>
+    <S.NumberPage>
       {currentPage} de {numPages}
-    </p>
+    </S.NumberPage>
     {!isLast && <Link to={nextPage}>proxima página →</Link>}
   </S.PaginationWrapper>
 )

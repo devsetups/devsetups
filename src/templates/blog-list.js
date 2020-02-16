@@ -2,12 +2,14 @@ import React from 'react'
 import { graphql } from 'gatsby'
 
 import Layout from '../components/Layout'
-import Header from "../components/Header"
+import Header from '../components/Header'
 import SEO from '../components/seo'
 import PostItem from '../components/PostItem'
-import Pagination from '../components/Pagination'
 
 import * as S from '../components/Post/styled'
+import Pagination from "../components/Pagination"
+import Footer from '../components/Footer'
+import Greetings from '../components/Greetings'
 
 const BlogList = props => {
   const postList = props.data.allMarkdownRemark.edges
@@ -22,11 +24,23 @@ const BlogList = props => {
     <Layout>
       <SEO title="Home" />
       <Header />
+      <Greetings />
       <S.PostItemList>
         {postList.map(
           ({
             node: {
-              frontmatter: { position, date, company, title, image, description, twitter, github, linkedin, site },
+              frontmatter: {
+                position,
+                date,
+                company,
+                title,
+                image,
+                description,
+                twitter,
+                github,
+                linkedin,
+                site,
+              },
               timeToRead,
               fields: { slug },
             },
@@ -48,6 +62,7 @@ const BlogList = props => {
           )
         )}
       </S.PostItemList>
+
       <Pagination
         isFirst={isFirst}
         isLast={isLast}
@@ -56,6 +71,7 @@ const BlogList = props => {
         prevPage={prevPage}
         nextPage={nextPage}
       />
+      <Footer />
     </Layout>
   )
 }

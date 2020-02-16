@@ -4,7 +4,7 @@ title: 'Zeno Rocha'
 description: Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 company: 'LifeRay'
 position: front-end
-image: "/assets/img/desert.jpg"
+image: "/assets/img/zeno-rocha.jpg"
 twitter: https://twitter.com/dancasttro
 github: https://github.com/dancasttro
 site: http://dancasttro.github.io
