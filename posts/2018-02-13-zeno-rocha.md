@@ -2,6 +2,7 @@
 date: 2018-02-13 05:54:23
 title: 'Zeno Rocha'
 description: Pellentesque sed sapien lorem, at lacinia urna. In hac habitasse platea dictumst. Vivamus vel justo in leo laoreet ullamcorper non vitae lorem. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+place: California
 company: 'LifeRay'
 position: front-end
 image: "/assets/img/zeno-rocha.jpg"

@@ -1,6 +1,6 @@
 ---
 date: 2015-02-10 05:54:23
-title: You only live once
+title: 'Erika Heidi'
 description: But if you do it right, once is enough
 position: dev
 image: "/assets/img/erika-heidi.jpg"

@@ -4,13 +4,15 @@ export const PostHeader = styled.header`
   color: #5a5050;
   margin: 0 auto;
   width: 60rem;
-  padding: 3rem 0 0;
+  padding: 2rem 0 0;
 `
 
 export const PostTitle = styled.h1`
-  font-size: 2rem;
+  font-size: 3rem;
   font-weight: 700;
   margin: 1rem auto;
+  text-align: center;
+
 `
 
 export const PostCompany = styled.h2`
@@ -26,6 +28,7 @@ export const PostLabel = styled.label`
 export const PostDate = styled.p`
   font-size: 1rem;
   font-weight: 100;
+  text-align: center;
 `
 
 export const PostItemList = styled.section`
@@ -39,7 +42,7 @@ export const PostItemList = styled.section`
 export const MainContent = styled.section`
   margin: auto;
   max-width: 70rem;
-  padding: 2rem 5rem;
+  padding: 2rem 5rem 0;
 
   p,
   h1,
@@ -56,7 +59,7 @@ export const MainContent = styled.section`
     font-weight: 300;
     line-height: 1.7;
     letter-spacing: 0.069rem;
-    padding: 0 1.4rem;
+    padding: 0;
   }
 
   p {
@@ -107,7 +110,7 @@ export const MainContent = styled.section`
 
   blockquote {
     color: #000;
-    border-left: 0.3rem solid #1fa1f2;
+    border-left: 0.3rem solid #a2d4ab;
     padding: 0 1.875rem;
     margin: 3.125rem auto;
   }
@@ -139,7 +142,6 @@ export const MainContent = styled.section`
 
   h2 {
     font-size: 1.6rem;
-    border-bottom: 1px solid #ef652a;
     padding: 0;
   }
 
@@ -187,8 +189,8 @@ export const MainContent = styled.section`
   }
 
   a {
-    border-bottom: 1px dashed #1fa1f2;
-    color: #1fa1f2;
+    border-bottom: 1px dashed #a2d4ab;
+    color: #a2d4ab;
     text-decoration: none;
     transition: opacity 0.5s;
 
@@ -200,4 +202,22 @@ export const MainContent = styled.section`
       opacity: 0.8;
     }
   }
+`
+
+export const PostSocialMediaWrapper = styled.div`
+  float: left;
+  margin: 0 auto;
+`
+export const PostLinkSocialMediaWrapper = styled.div`
+  width: 30px;
+  float: left;
+  margin: 0 10px;
+`
+
+export const PostLinkSocialMedia = styled.a`
+  font-size: 0.9rem;
+  font-weight: 300;
+  display: block;
+  text-decoration: none;
+  color: #8899a6;
 `

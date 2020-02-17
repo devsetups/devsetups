@@ -36,10 +36,6 @@ const BlogList = props => {
                 title,
                 image,
                 description,
-                twitter,
-                github,
-                linkedin,
-                site,
               },
               timeToRead,
               fields: { slug },
@@ -54,10 +50,6 @@ const BlogList = props => {
               title={title}
               description={description}
               company={company}
-              twitter={twitter}
-              github={github}
-              linkedin={linkedin}
-              site={site}
             />
           )
         )}
@@ -95,10 +87,6 @@ export const query = graphql`
             company
             title
             image
-            twitter
-            github
-            linkedin
-            site
           }
           timeToRead
         }

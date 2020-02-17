@@ -1,14 +1,17 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import { Twitter } from 'styled-icons/boxicons-logos/Twitter'
+import { World } from 'styled-icons/boxicons-regular/World'
+import { Github } from 'styled-icons/boxicons-logos/Github'
+import { LinkedinSquare } from 'styled-icons/boxicons-logos/LinkedinSquare'
 
 import Layout from '../components/Layout'
 import SEO from '../components/seo'
 import Footer from '../components/Footer'
 import RecommendedPosts from "../components/RecommendedPosts"
-// import Comments from "../components/Comments"
+import Header from '../components/Header'
 
 import * as S from '../components/Post/styled'
-import Header from '../components/Header'
 
 const BlogPost = ({ data, pageContext }) => {
   const post = data.markdownRemark
@@ -17,14 +20,15 @@ const BlogPost = ({ data, pageContext }) => {
 
   return (
     <Layout>
-      <SEO title={post.frontmatter.title} description={post.frontmatter.description} image={post.frontmatter.image} />
+      <SEO
+        title={post.frontmatter.title}
+        description={post.frontmatter.description}
+        image={post.frontmatter.image}
+      />
       <Header />
       <S.PostHeader>
-        <S.PostDate>{post.frontmatter.date}</S.PostDate>
         <S.PostTitle>{post.frontmatter.title}</S.PostTitle>
-        <S.PostCompany>
-          <S.PostLabel>Empresa:</S.PostLabel> {post.frontmatter.company}
-        </S.PostCompany>
+        <S.PostDate>{post.frontmatter.date}</S.PostDate>
       </S.PostHeader>
       <S.MainContent>
         <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
@@ -43,9 +47,15 @@ export const query = graphql`
       }
       frontmatter {
         title
+        place
         company
+        position
         date(locale: "pt-br", formatString: "DD [de] MMMM [de] YYYY")
         image
+        twitter
+        github
+        linkedin
+        site
       }
       html
       timeToRead

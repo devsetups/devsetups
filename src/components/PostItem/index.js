@@ -27,38 +27,6 @@ const PostItem = ({
         <S.PostItemImgWrapper>
           <S.PostItemImage src={image} alt="" />
         </S.PostItemImgWrapper>
-        <S.PostInfoWrapper>
-          <S.PostItemTitle>{title}</S.PostItemTitle>
-          <S.PostItemInfo>
-            {/* <S.PostItemTag>{position}</S.PostItemTag> */}
-            {/* <S.PostItemDescription>{description}</S.PostItemDescription> */}
-          </S.PostItemInfo>
-          {/* <S.PostSocialMediaWrapper>
-            <S.PostLinkSocialMediaWrapper>
-              <S.PostLinkSocialMedia href={twitter} target="_blank">
-                <Twitter />
-              </S.PostLinkSocialMedia>
-            </S.PostLinkSocialMediaWrapper>
-
-            <S.PostLinkSocialMediaWrapper>
-              <S.PostLinkSocialMedia href={site} target="_blank">
-                <World />
-              </S.PostLinkSocialMedia>
-            </S.PostLinkSocialMediaWrapper>
-
-            <S.PostLinkSocialMediaWrapper>
-              <S.PostLinkSocialMedia href={github} target="_blank">
-                <Github />
-              </S.PostLinkSocialMedia>
-            </S.PostLinkSocialMediaWrapper>
-
-            <S.PostLinkSocialMediaWrapper>
-              <S.PostLinkSocialMedia href={linkedin} target="_blank">
-                <LinkedinSquare />
-              </S.PostLinkSocialMedia>
-            </S.PostLinkSocialMediaWrapper>
-          </S.PostSocialMediaWrapper> */}
-        </S.PostInfoWrapper>
       </S.PostItemLink>
     </S.PostItemWrapper>
   </S.Container>
