@@ -9,3 +9,13 @@ export const Container = styled.section`
 export const Title = styled.h1`
   text-align: center;
 `
+
+export const Text = styled.p`
+  font-size: 20px;
+  margin: 10px 0;
+`
+
+export const TextWrapper = styled.div`
+  width: 720px;
+  margin: 0 auto;
+`

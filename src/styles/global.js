@@ -17,6 +17,10 @@ export default createGlobalStyle`
     -webkit-font-smoothing: antialiased !important;
     background-color: #fff;
   }
+  body::selection {
+    background: #000;
+    color: #fff;
+  }
   ul {
     list-style: none;
     padding: 0;
