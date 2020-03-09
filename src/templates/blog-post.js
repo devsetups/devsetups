@@ -1,17 +1,17 @@
-import React from 'react'
-import { graphql } from 'gatsby'
-import { Twitter } from 'styled-icons/boxicons-logos/Twitter'
-import { World } from 'styled-icons/boxicons-regular/World'
-import { Github } from 'styled-icons/boxicons-logos/Github'
-import { LinkedinSquare } from 'styled-icons/boxicons-logos/LinkedinSquare'
+import React from "react"
+import { graphql } from "gatsby"
+// import { Twitter } from 'styled-icons/boxicons-logos/Twitter'
+// import { World } from 'styled-icons/boxicons-regular/World'
+// import { Github } from 'styled-icons/boxicons-logos/Github'
+// import { LinkedinSquare } from 'styled-icons/boxicons-logos/LinkedinSquare'
 
-import Layout from '../components/Layout'
-import SEO from '../components/seo'
-import Footer from '../components/Footer'
+import Layout from "../components/Layout"
+import SEO from "../components/seo"
+import Footer from "../components/Footer"
 import RecommendedPosts from "../components/RecommendedPosts"
-import Header from '../components/Header'
+import Header from "../components/Header"
 
-import * as S from '../components/Post/styled'
+import * as S from "../components/Post/styled"
 
 const BlogPost = ({ data, pageContext }) => {
   const post = data.markdownRemark

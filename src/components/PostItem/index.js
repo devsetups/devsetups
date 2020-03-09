@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react"
 import PropTypes from "prop-types"
-import { Twitter } from 'styled-icons/boxicons-logos/Twitter'
-import { World } from 'styled-icons/boxicons-regular/World'
-import { Github } from 'styled-icons/boxicons-logos/Github'
-import { LinkedinSquare } from 'styled-icons/boxicons-logos/LinkedinSquare'
 
-import * as S from './styled'
+import * as S from "./styled"
 
 const PostItem = ({
   slug,

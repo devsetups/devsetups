@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from "styled-components"
 
 export const Container = styled.footer`
   border-top: 1px solid #eee;
@@ -7,6 +7,6 @@ export const Container = styled.footer`
   margin: 0 auto;
 `
 
-export const Copyright = styled.span`
+export const Copyright = styled.p`
   font-size: 12px;
 `
