@@ -2,8 +2,6 @@ import styled from "styled-components"
 import { Link } from "gatsby"
 
 export const RecommendedWrapper = styled.section`
-  /* border-bottom: 1px solid #38444d;
-  border-top: 1px solid #38444d; */
   background: #fff;
   display: flex;
   width: 960px;

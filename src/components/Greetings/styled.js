@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import media from 'styled-media-query'
 
 export const Container = styled.section`
   margin: 0 auto;
@@ -6,6 +7,10 @@ export const Container = styled.section`
   height: 20rem;
   width: 940px;
   padding: 100px 0;
+  ${media.lessThan("large")`
+    width: 100%;
+    padding: 100px 10px;
+  `}
 `
 
 export const Description = styled.p`
@@ -20,4 +25,9 @@ export const Title = styled.h1`
   display: block;
   width: 390px;
   font-weight: normal;
+  ${media.lessThan("small")`
+    width: 100%;
+    text-align: center;
+    font-size: 1.3rem;
+  `}
 `

@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import media from 'styled-media-query'
 
 export const PostHeader = styled.header`
   color: #5a5050;
@@ -34,9 +35,16 @@ export const PostDate = styled.p`
 export const PostItemList = styled.section`
   margin: 0 auto;
   display: grid;
-  grid-template-columns: 300px 300px 300px;
+  grid-template-columns: repeat(3, 300px);
   grid-gap: 10px;
   margin-top: 20px;
+  ${media.lessThan("940px")`
+    margin: 0;
+    padding: 0 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    justify-items: center;
+  `}
 `
 
 export const MainContent = styled.section`

@@ -1,4 +1,5 @@
 import styled from 'styled-components'
+import media from 'styled-media-query'
 import { Link } from "gatsby"
 
 export const Container = styled.header`
@@ -6,6 +7,9 @@ export const Container = styled.header`
   margin: 0 auto;
   height: 80px;
   padding: 20px 0;
+  ${media.lessThan("large")`
+    width: 100%;
+  `}
 `
 export const Logo = styled.h1`
   display: block;
