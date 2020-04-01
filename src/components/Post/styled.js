@@ -1,11 +1,14 @@
-import styled from 'styled-components'
-import media from 'styled-media-query'
+import styled from "styled-components"
+import media from "styled-media-query"
 
 export const PostHeader = styled.header`
   color: #5a5050;
   margin: 0 auto;
   width: 60rem;
   padding: 2rem 0 0;
+  ${media.lessThan("940px")`
+    width: 100%;
+  `}
 `
 
 export const PostTitle = styled.h1`
@@ -13,7 +16,9 @@ export const PostTitle = styled.h1`
   font-weight: 700;
   margin: 1rem auto;
   text-align: center;
-
+  ${media.lessThan("small")`
+    font-size: 1.5rem;
+  `}
 `
 
 export const PostCompany = styled.h2`
@@ -48,6 +53,10 @@ export const PostItemList = styled.section`
 `
 
 export const MainContent = styled.section`
+  ${media.lessThan("940px")`
+    max-width: 100%;
+    padding: 2rem .7rem 0;
+  `}
   margin: auto;
   max-width: 70rem;
   padding: 2rem 5rem 0;
@@ -91,7 +100,7 @@ export const MainContent = styled.section`
   }
 
   li {
-    font-size: 1rem;    
+    font-size: 1rem;
 
     & > ul {
       margin-bottom: 0;

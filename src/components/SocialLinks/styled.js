@@ -1,9 +1,13 @@
 import styled from "styled-components"
+import media from "styled-media-query"
 
 export const SocialLinksWrapper = styled.nav`
   margin: 0 auto;
   width: 150px;
   float: right;
+  ${media.lessThan("small")`
+    width: 100px;
+  `}
 `
 
 export const SocialLinksList = styled.ul`
