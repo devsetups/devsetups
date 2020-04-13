@@ -6,7 +6,7 @@ import Header from '../components/Header'
 import SEO from '../components/seo'
 import PostItem from '../components/PostItem'
 
-import * as S from '../components/Post/styled'
+import * as S from '../styles/base'
 import Pagination from "../components/Pagination"
 import Footer from '../components/Footer'
 import Greetings from '../components/Greetings'

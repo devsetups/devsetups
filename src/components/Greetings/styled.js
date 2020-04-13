@@ -11,6 +11,10 @@ export const Container = styled.section`
     width: 100%;
     padding: 100px 10px;
   `}
+  ${media.lessThan("small")`
+    padding: 45px 10px;
+    height: 10rem;
+  `}
 `
 
 export const Description = styled.p`
@@ -25,6 +29,10 @@ export const Title = styled.h1`
   display: block;
   width: 390px;
   font-weight: normal;
+  ${media.lessThan("large")`
+    margin: 0 auto;
+    text-align: center;
+  `}
   ${media.lessThan("small")`
     width: 100%;
     text-align: center;

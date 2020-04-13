@@ -11,7 +11,7 @@ import Footer from "../components/Footer"
 import RecommendedPosts from "../components/RecommendedPosts"
 import Header from "../components/Header"
 
-import * as S from "../components/Post/styled"
+import * as S from '../styles/base';
 
 const BlogPost = ({ data, pageContext }) => {
   const post = data.markdownRemark

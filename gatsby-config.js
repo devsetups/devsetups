@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `DevSetups`,
-    description: `A collection of interviews with reference people in the web world`,
+    description: `Uma coleção de entrevistas com pessoal de referências no mundo da web`,
     author: `Daniel Castro`,
     siteUrl: `https://devsetups.netlify.com/`,
   },

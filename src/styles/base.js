@@ -1,5 +1,5 @@
-import styled from "styled-components"
-import media from "styled-media-query"
+import styled from 'styled-components'
+import media from 'styled-media-query'
 
 export const PostHeader = styled.header`
   color: #5a5050;
@@ -59,7 +59,7 @@ export const MainContent = styled.section`
   `}
   margin: auto;
   max-width: 70rem;
-  padding: 2rem 5rem 0;
+  padding: 2rem 6rem 0;
 
   p,
   h1,
@@ -80,7 +80,7 @@ export const MainContent = styled.section`
   }
 
   p {
-    margin: 0 auto 1.6rem;
+    margin: 0 auto 1rem;
     font-size: 1rem;
   }
 
